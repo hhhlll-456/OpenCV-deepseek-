@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "source": "measured-sheet",
+    "paper_mm": [
+      297.0,
+      210.0
+    ],
+    "qr_size_mm_nominal": 26.0,
+    "qr_size_mm_actual": 35.905,
+    "quiet_zone_modules": 4,
+    "reference": "corner_tr",
+    "note": "由 tools/make_layout_from_sheet.py 从实测距离重建。边长 --side 量的是黑色图案(数据区, 21 模块)；含白边的名义边长按 29/21 外推。"
+  },
+  "qr": {
+    "P1": {
+      "where": "左上",
+      "symbol_corners_mm": {
+        "top_left": [
+          16.55,
+          39.5
+        ],
+        "top_right": [
+          42.55,
+          39.5
+        ],
+        "bottom_right": [
+          42.55,
+          65.5
+        ],
+        "bottom_left": [
+          16.55,
+          65.5
+        ]
+      },
+      "center_mm": [
+        29.55,
+        52.5
+      ],
+      "ref_point_mm": [
+        42.55,
+        39.5
+      ],
+      "module_mm": 1.2381,
+      "modules": 29
+    },
+    "P2": {
+      "where": "右上",
+      "symbol_corners_mm": {
+        "top_left": [
+          229.55,
+          39.5
+        ],
+        "top_right": [
+          255.55,
+          39.5
+        ],
+        "bottom_right": [
+          255.55,
+          65.5
+        ],
+        "bottom_left": [
+          229.55,
+          65.5
+        ]
+      },
+      "center_mm": [
+        242.55,
+        52.5
+      ],
+      "ref_point_mm": [
+        255.55,
+        39.5
+      ],
+      "module_mm": 1.2381,
+      "modules": 29
+    },
+    "P3": {
+      "where": "左下",
+      "symbol_corners_mm": {
+        "top_left": [
+          15.45,
+          170.5
+        ],
+        "top_right": [
+          41.45,
+          170.5
+        ],
+        "bottom_right": [
+          41.45,
+          196.5
+        ],
+        "bottom_left": [
+          15.45,
+          196.5
+        ]
+      },
+      "center_mm": [
+        28.45,
+        183.5
+      ],
+      "ref_point_mm": [
+        41.45,
+        170.5
+      ],
+      "module_mm": 1.2381,
+      "modules": 29
+    },
+    "P4": {
+      "where": "右下",
+      "symbol_corners_mm": {
+        "top_left": [
+          229.45,
+          170.5
+        ],
+        "top_right": [
+          255.45,
+          170.5
+        ],
+        "bottom_right": [
+          255.45,
+          196.5
+        ],
+        "bottom_left": [
+          229.45,
+          196.5
+        ]
+      },
+      "center_mm": [
+        242.45,
+        183.5
+      ],
+      "ref_point_mm": [
+        255.45,
+        170.5
+      ],
+      "module_mm": 1.2381,
+      "modules": 29
+    }
+  }
+}

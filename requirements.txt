@@ -1,0 +1,11 @@
+# Python 依赖 —— 用 pip install -r requirements.txt 装
+#
+# ★ Dobot SDK 不在这里: 它是越疆的二进制 + ctypes 封装，不是 pip 包。
+#   已经随项目放在 sdk/dobot/ 里，不用装。
+#
+# ★ 装了这些还不够: libDobotDll.so 还依赖**系统级**的 Qt5，pip 装不了。
+#   先跑 python3 tools/check_env.py —— 它会逐项告诉你还缺什么、怎么装。
+
+opencv-python>=4.5      # 摄像头取帧、二维码检测、单应矩阵
+numpy>=1.21             # 矩阵运算、中位数滤波
+pillow>=9.0             # 生成标定纸 PNG 与图例

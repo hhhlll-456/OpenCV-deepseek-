@@ -1,0 +1,11 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 本地代码索引工具 (codegraph)
+.codegraph/
+
+# 编辑器/系统
+.vscode/
+.idea/
+.DS_Store
