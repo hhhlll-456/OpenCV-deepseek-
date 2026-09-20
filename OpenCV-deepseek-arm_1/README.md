@@ -19,7 +19,7 @@
 
 ## 目录结构
 
-> 仓库里所有内容都收在 `OpenCV-deepseek-arm/` 这一个目录下（`.gitignore` 在仓库根目录）。
+> 仓库里所有内容都收在 `OpenCV-deepseek-arm_1/` 这一个目录下（`.gitignore` 在仓库根目录）。
 > 下面这棵树是**该目录内部**的结构：
 
 ```
