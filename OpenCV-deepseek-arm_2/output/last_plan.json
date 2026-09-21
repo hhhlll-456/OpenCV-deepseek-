@@ -1,0 +1,78 @@
+{
+  "created": "2026-09-21T13:54:51",
+  "instruction": "把黄色放到绿色上边",
+  "model": "deepseek-flash",
+  "world_state": {
+    "red": {
+      "x": 135.91,
+      "y": 31.98,
+      "z_level": 0,
+      "src": "camera",
+      "near": "P3"
+    },
+    "yellow": {
+      "x": 217.68,
+      "y": -56.12,
+      "z_level": 0,
+      "src": "camera",
+      "near": "P2"
+    },
+    "green": {
+      "x": 135.91,
+      "y": -18.02,
+      "z_level": 0
+    },
+    "blue": {
+      "x": 160.24,
+      "y": -83.12,
+      "z_level": 0,
+      "src": "camera",
+      "near": "P4"
+    },
+    "_codes": {
+      "P1": [
+        239.12,
+        67.72
+      ],
+      "P2": [
+        228.6,
+        -101.19
+      ],
+      "P3": [
+        117.85,
+        72.95
+      ],
+      "P4": [
+        108.64,
+        -97.32
+      ]
+    }
+  },
+  "world_src": "output/world_state.json（桌面记忆库 —— x/y 是上次识别的、z_level 靠它一路记下来）",
+  "world_real": true,
+  "brain_rules": "back:-50,0|front:50,0|left:0,50|right:0,-50|cube:30|gap:50",
+  "actions": [
+    {
+      "obj": "yellow",
+      "grasp": {
+        "x": 217.68,
+        "y": -56.12,
+        "z_level": 0
+      },
+      "place": {
+        "x": 135.91,
+        "y": -18.02,
+        "z_level": 1
+      }
+    }
+  ],
+  "params": {
+    "obj_h": 26.0,
+    "net_h": 25.0,
+    "press": 0.0,
+    "hover": 30.0,
+    "carry_clear": 35.0,
+    "table_z": -18.416
+  },
+  "note": "--go 默认执行这份计划，不会重新问 DeepSeek。要重问加 --fresh。"
+}

@@ -1,0 +1,84 @@
+{
+  "content": "QR_SUCTION",
+  "dpi": 300,
+  "quiet_zone_modules": 4,
+  "data_modules": 21,
+  "total_modules": 29,
+  "version": 1,
+  "size_basis": "outer_with_quiet_zone",
+  "note": "边长口径 = 含白边的整块。数据区(mm) = 整块(mm) x 21/29。与 step1_gen_paper.py 的 QR_SIZE_MM 同口径；与 calib_A4_qr.json 的 qr_size_mm_actual(数据区口径) 不同。",
+  "variants": {
+    "15mm": {
+      "outer_mm_nominal": 15.0,
+      "outer_mm_actual": 14.986,
+      "data_mm_actual": 10.852,
+      "module_mm": 0.5168,
+      "png_px": 177,
+      "file": "suction_qr_15mm.png",
+      "decode_1080p": {
+        "px_per_module": 2.66,
+        "blur_tolerance_sigma": 0.4,
+        "verdict": "❌仅在理想图上能解，真实相机必失败"
+      },
+      "decode_4K": {
+        "px_per_module": 5.32,
+        "blur_tolerance_sigma": 0.8,
+        "verdict": "⚠️勉强（真实相机可能扫不出）"
+      }
+    },
+    "20mm": {
+      "outer_mm_nominal": 20.0,
+      "outer_mm_actual": 19.981,
+      "data_mm_actual": 14.469,
+      "module_mm": 0.689,
+      "png_px": 236,
+      "file": "suction_qr_20mm.png",
+      "decode_1080p": {
+        "px_per_module": 3.54,
+        "blur_tolerance_sigma": 1.2,
+        "verdict": "✅可解码"
+      },
+      "decode_4K": {
+        "px_per_module": 7.09,
+        "blur_tolerance_sigma": 2.0,
+        "verdict": "✅可解码"
+      }
+    },
+    "25mm": {
+      "outer_mm_nominal": 25.0,
+      "outer_mm_actual": 24.977,
+      "data_mm_actual": 18.087,
+      "module_mm": 0.8613,
+      "png_px": 295,
+      "file": "suction_qr_25mm.png",
+      "decode_1080p": {
+        "px_per_module": 4.43,
+        "blur_tolerance_sigma": 1.2,
+        "verdict": "✅可解码"
+      },
+      "decode_4K": {
+        "px_per_module": 8.86,
+        "blur_tolerance_sigma": 2.0,
+        "verdict": "✅可解码"
+      }
+    },
+    "30mm": {
+      "outer_mm_nominal": 30.0,
+      "outer_mm_actual": 29.972,
+      "data_mm_actual": 21.704,
+      "module_mm": 1.0335,
+      "png_px": 354,
+      "file": "suction_qr_30mm.png",
+      "decode_1080p": {
+        "px_per_module": 5.32,
+        "blur_tolerance_sigma": 1.2,
+        "verdict": "✅可解码"
+      },
+      "decode_4K": {
+        "px_per_module": 10.63,
+        "blur_tolerance_sigma": 2.0,
+        "verdict": "✅可解码"
+      }
+    }
+  }
+}

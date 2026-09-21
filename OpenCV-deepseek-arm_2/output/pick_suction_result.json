@@ -1,0 +1,25 @@
+{
+  "tool": "pick_suction.py",
+  "note": "相对运动路线（吸盘码闭环）的抓取记录",
+  "color": "red",
+  "table_z": -18.416,
+  "obj_h": 26.0,
+  "press": 0.0,
+  "grab_z": 7.584,
+  "drop_z": 7.584,
+  "grab_xy": [
+    239.35,
+    86.28
+  ],
+  "drop_xy": [
+    239.35,
+    86.28
+  ],
+  "drop_spec": "--hold",
+  "hold": true,
+  "aim_steps": 1,
+  "aim_resid_mm": 7.022,
+  "z_qr": 176.0,
+  "c_coef": 2.0204,
+  "cam_z": 323.0
+}
